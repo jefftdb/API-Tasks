@@ -172,3 +172,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+mysql/data/
+*.sock
+*.pid
+*.err
+*.log
+*.index

@@ -26,6 +26,7 @@ app.config['SWAGGER'] = {
 swagger = Swagger(app)
 
 mysql = MySQL(app)
+CORS(app)
 
 from controller.usuario_controller.usuarioController import *
 from controller.protocolo_controller.protocoloController import *
